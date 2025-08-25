@@ -7,7 +7,7 @@ Ext.define('Ext_JS_App.view.main.header.HeaderView', {
         { 
             xtype: 'container',
             cls: 'headerviewtext',
-            bind: { html: '{heading}' }
+            bind: { html: `{heading} - App Under Construction` }
         },
         '->',
         {
