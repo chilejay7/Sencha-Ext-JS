@@ -22,9 +22,8 @@ This template has the standard architecture for a desktop application
 <br>
 - These files: View, View scss file, ViewController, ViewModel (called a ViewPackage)
 <br><br>
-<ul>
-<p>Notice that the menu allows you to select from several views,</p> 
-<br>
+<p>Notice that the menu allows you to select from several views,</p>
+<ul> 
 <li>- Home (the view you are currently on)</li>
 <br>
 <li>- Personnel</li>
