@@ -1,9 +1,9 @@
 Ext.define("Ext_JS_App.view.about.AboutView", {
     xtype: "aboutview",
     cls: "aboutview",
-    controller: { type: "aboutviewcontoller" },
+    controller: { type: "aboutviewcontroller" },
     viewModel: { type: "aboutviewmodel" },
-    requries: [],
+    requires: [],
     extend: "Ext.Container",
     scrollable: true,
     html: 
