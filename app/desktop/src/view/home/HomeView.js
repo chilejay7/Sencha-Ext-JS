@@ -1,10 +1,10 @@
-Ext.define('Ext_JS_App.view.home.HomeView',{
-	xtype: 'homeview',
-	cls: 'homeview',
-	controller: {type: 'homeviewcontroller'},
-	viewModel: {type: 'homeviewmodel'},
-	requires: [],
-	extend: 'Ext.Container',
+Ext.define("Ext_JS_App.view.home.HomeView", {
+  xtype: "homeview",
+  cls: "homeview",
+  controller: { type: "homeviewcontroller" },
+  viewModel: { type: "homeviewmodel" },
+  requires: [],
+  extend: "Ext.Container",
   scrollable: true,
   html: `<div style="user-select: text !important;">Welcome to the Ext JS Modern Desktop Template Application!
 <br><br>
@@ -22,11 +22,12 @@ This template has the standard architecture for a desktop application
 <br>
 - These files: View, View scss file, ViewController, ViewModel (called a ViewPackage)
 <br><br>
-Notice that the menu allows you to select from several views, 
+<p>Notice that the menu allows you to select from several views,</p>
+<ul> 
+<li>- Home (the view you are currently on)</li>
 <br>
-- Home (the view you are currently on)
-<br>
-- Personnel
+<li>- Personnel</li>
+</ul>
 <br><br>
 select the personnel menu item to see an example of a page with an Ext JS grid
 <br><br>
@@ -38,6 +39,6 @@ Simple Theming:
 <br><br>
 - go to 'app/desktop/sass/var.scss', uncomment one of the $base-color variables
 <br>
-- more adventurous? go to <span style="color:red;">'app/shared/sass/var.scss'</span> and uncomment all the lines
-</div>`
+- Are you feeling more adventurous? go to <span style="color:red;">'app/shared/sass/var.scss'</span> and uncomment all the lines
+</div>`,
 });
